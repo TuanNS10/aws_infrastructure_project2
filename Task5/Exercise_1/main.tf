@@ -22,7 +22,7 @@ resource "aws_instance" "udacity-m4" {
   ami = "ami-02396cdd13e9a1257"
   instance_type = "m4.large"
   subnet_id = "subnet-0045d8187ff978839"
-  count = 0
+  count = 2
   tags = {
     Name = "Udacity M4"
   }
