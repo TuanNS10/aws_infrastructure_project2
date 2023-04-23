@@ -1,0 +1,29 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+8682.912,5245.830000000002,85432.87,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+Project2 Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Project 2 - Initial,Amazon EC2 ,3942,1200,18342.00,USD,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 4), Advance EC2 instance (t3.large), Pricing strategy (Compute Savings Plans 3 Year  All upfront), Enable monitoring (disabled), EBS Storage amount (3000 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+Project2 Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Project 2 - Initial,Amazon RDS for MySQL,0,1901.22,22814.64,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (3000 GB), Quantity (2), Instance type (db.m5.large), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
+Project2 Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Project 2 - Initial,Amazon EC2 ,4740.912,1200,19140.91,USD,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 4), Advance EC2 instance (m4.large), Pricing strategy (Compute Savings Plans 3 Year  All upfront), Enable monitoring (disabled), EBS Storage amount (3000 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+Project2 Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Project 2 - Initial,Amazon Elastic IP,0,0,0.00,USD,"Number of EC2 instances (1), Number of EIPs per instance (1)"
+Project2 Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Project 2 - Initial,S3 Standard,0,1150,13800.00,USD,S3 Standard storage (50000 GB per month)
+Project2 Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Project 2 - Initial,Data Transfer,0,0,0.00,USD,
+Project2 Estimate,US East (N. Virginia),,AWS Data Transfer,0,0,0.00,USD,"DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+Project2 Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Project 2 - Initial,Application Load Balancer,0,31.03,372.36,USD,Number of Application Load Balancers (1)
+Project2 Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Project 2 - Initial,Network Load Balancer,0,552.9799999999999,6635.76,USD,"Number of Network Load Balancers (1), Average TCP connection duration (60 seconds), Average UDP Flow duration (60 seconds), Average number of new UDP Flows (5000 per second), Average number of new TCP connections (5000 per second), Processed bytes per NLB for UDP (10 GB per hour), Processed bytes per NLB for TCP (10 GB per hour), Processed bytes per NLB for TLS (10 GB per hour), Average number of new TLS connections (5000 per second), Average TLS connection duration (60 seconds)"
+Project2 Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Project 2 - Initial,Network Address Translation (NAT) Gateway,0,35.1,421.20,USD,Number of NAT Gateways (1)
+Project2 Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Project 2 - Initial,Amazon Route 53,0,125.5,1506.00,USD,"Hosted Zones (1), Basic Checks Within AWS (300)"
+Project2 Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Project 2 - Initial,Amazon CloudWatch,0,0,0.00,USD,
+Project2 Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Project 2 - Reduced Cost Estimate,S3 Glacier Instant Retrieval,0,200,2400.00,USD,S3 Glacier Instant Retrieval storage (50000 GB per month)
+Project2 Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Project 2 - Reduced Cost Estimate,Data Transfer,0,0,0.00,USD,
+
+
+********Change made: Used S3 Glacier Instant Retrieval to store some of the app data that would rarely be revisited by users. Reduced 4/5 off the cost of hosting web servers...
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
